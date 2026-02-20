@@ -1,0 +1,450 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Katora - Tienda de Joyería</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+    <link rel="stylesheet" href="static/css/style.css">
+</head>
+<body>
+
+    <header>
+        <section class="header-top">
+            <div class="header-top-left">
+                <span>Get <strong>UPTO 40% OFF</strong> on your 1st order <strong><a href="">More details</a></strong></span>
+            </div>
+            <div class="header-top-right">
+                <nav class="header-nav-language">
+                    <a href="#" class="header-nav-toggle">English</a>
+                    <ul>
+                        <li><a href="/en">English</a></li>
+                        <li><a href="/es">Español</a></li>
+                        <li><a href="/fr">Français</a></li>
+                    </ul>
+                </nav>
+                <nav class="header-nav-currency">
+                    <a href="#" class="header-nav-toggle">USD</a>
+                    <ul>
+                        <li><a href="/currency/usd">USD</a></li>
+                        <li><a href="/currency/eur">EUR</a></li>
+                        <li><a href="/currency/gbp">GBP</a></li>
+                    </ul>
+                </nav>
+                <span>Welcome User</span>
+                <nav class="header-nav-account">
+                    <a href="#" class="header-nav-toggle">My Account</a>
+                    <ul>
+                        <li><a href="/account">My Account</a></li>
+                        <li><a href="/login">Login</a></li>
+                        <li><a href="/register">Register</a></li>
+                        <li><a href="/orders">My Orders</a></li>
+                    </ul>
+                </nav>
+            </div>
+        </section>
+
+        <section>
+            <h1>
+                <a href="/">Katora.</a>
+            </h1>
+            <nav>
+                <ul>
+                    <li>
+                        <a href="#">Home</a>
+                        <ul>
+                            <li><a href="/">Subpage 1</a></li>
+                            <li><a href="/">Subpage 2</a></li>
+                        </ul>
+                    </li>
+                    <li>
+                        <a href="#">About Us</a>
+                        <ul>
+                            <li><a href="/about">Our Story</a></li>
+                            <li><a href="/about">Team</a></li>
+                        </ul>
+                    </li>
+                    <li>
+                        <a href="#">Shop</a>
+                        <ul>
+                            <li><a href="/shop">All Products</a></li>
+                            <li><a href="/shop">Categories</a></li>
+                        </ul>
+                    </li>
+                    <li>
+                        <a href="#">Blog</a>
+                        <ul>
+                            <li><a href="/blog">Latest Posts</a></li>
+                            <li><a href="/blog">Archives</a></li>
+                        </ul>
+                    </li>
+                    <li>
+                        <a href="#">Contact</a>
+                        <ul>
+                            <li><a href="/contact">Contact Form</a></li>
+                            <li><a href="/contact">Location</a></li>
+                        </ul>
+                    </li>
+                </ul>
+            </nav>
+            <form role="search">
+                <select class="category-select">
+                    <option value="">All Categories</option>
+                    <option value="rings">Rings</option>
+                    <option value="earrings">Earrings</option>
+                    <option value="necklaces">Necklaces</option>
+                    <option value="bracelets">Bracelets</option>
+                </select>
+                <label for="search" hidden>Buscar</label>
+                <input type="search" id="search" placeholder="Search...">
+                <button type="submit">Buscar</button>
+            </form>
+            <div class="header-icons">
+                <a href="/wishlist" title="Lista de Deseos">
+                    <i class="bi bi-heart"></i>
+                </a>
+                <a href="/cart" title="Carrito">
+                    <i class="bi bi-cart-fill"></i>
+                </a>
+            </div>
+        </section>
+    </header>
+
+    <main>
+
+        <!-- HERO -->
+        <section class="hero">
+            <div><strong>Make yours dream true</strong></div>
+            <h2>Be vibrant with Matchless Jewelry</h2>
+            <a href="/shop">Shop Now</a>
+        </section>
+
+        <!-- BANNERS / CATEGORIAS -->
+        <section class="banners">
+            <h2 hidden>Categorías de Productos</h2>
+            <ul>
+                <li>
+                    <article>
+                        <img src="static/img/banner_2.webp" alt="Vibrant Earrings">
+                        <h3>Vibrant Earrings</h3>
+                        <p>Great Deals</p>
+                    </article>
+                </li>
+                <li>
+                    <article>
+                        <img src="static/img/banner_4.webp" alt="Jewelry Gifts">
+                        <h3>Jewelry GiftS</h3>
+                        <p>Best Match</p>
+                    </article>
+                </li>
+                <li>
+                    <article>
+                        <img src="static/img/banner_1.webp" alt="Latest Designs of Pendant">
+                        <h3>Latest Designs of Pendant</h3>
+                        <p>Designer Jewelry</p>
+                        <a href="/shop/pendants">Shop Now</a>
+                    </article>
+                </li>
+                <li>
+                    <article>
+                        <img src="static/img/banner_3.webp" alt="Band Collection">
+                        <h3>Band Collection</h3>
+                        <p>With Pearls</p>
+                    </article>
+                </li>
+                <li>
+                    <article>
+                        <img src="static/img/banner_5.webp" alt="Diamond Rings">
+                        <h3>Diamond Rings</h3>
+                        <p>A Precious Feeling</p>
+                    </article>
+                </li>
+            </ul>
+        </section>
+
+        <!-- PRODUCTS -->
+        <section class="products">
+            <h2>Welcome to Store</h2>
+            <nav>
+                <ul>
+                    <li><a href="#new">TOP SALES</a></li>
+                    <li><a href="#onsale">TRENDING</a></li>
+                    <li><a href="#best">WINTER SALE</a></li>
+                </ul>
+            </nav>
+
+            <ul>
+                <li>
+                    <article>
+                        <div class="product-badges">
+                            <span class="badge-featured">FEATURED</span>
+                            <span class="badge-new">NEW</span>
+                            <span class="badge-sale">SALE</span>
+                        </div>
+                        <img src="static/img/product_image_01.webp" alt="Austrian Crystals Engagement Jewelry Ring">
+                        <h3><a href="/product/1">Austrian Crystals Engagement Jewelry Ring</a></h3>
+                        <div class="product-price">$285.00</div>
+                    </article>
+                </li>
+
+                <li>
+                    <article>
+                        <div class="product-badges">
+                            <span class="badge-new">NEW</span>
+                        </div>
+                        <img src="static/img/product_image_02.webp" alt="Logotipo">
+                        <h3><a href="/product/2">Crystal Water Drop Wedding Function Earrings</a></h3>
+                        <div class="product-price">$285.00</div>
+                    </article>
+                </li>
+
+                <li>
+                    <article>
+                        <img src="static/img/product_image_03.webp" alt="Women Crystal Zircon Wedding Function Rings">
+                        <h3><a href="/product/3">Women Crystal Zircon Wedding Function Rings</a></h3>
+                        <div class="product-price">$85.00</div>
+                    </article>
+                </li>
+
+                <li>
+                    <article>
+                        <div class="product-badges">
+                            <span class="badge-sale">SALE</span>
+                        </div>
+                        <img src="static/img/product_image_04.webp" alt="Women Crystal Zircon Engagement And Wedding Ring">
+                        <h3><a href="/product/4">Women Crystal Zircon Engagement And Wedding Ring</a></h3>
+                        <div class="product-price">$110.00</div>
+                    </article>
+                </li>
+            </ul>
+        </section>
+
+        <!-- DEAL OF THE MONTH -->
+        <section class="deal-month">
+            <div class="deal-content">
+                <span>Super Deal of the Month</span>
+                <h2>Women Zircon Crystal Engagement Ring</h2>
+                <p>
+                    <del>$180</del>
+                    <ins>$250</ins>
+                </p>
+                <div>
+                    <span><strong>362</strong> <small>Days</small></span>
+                    <span><strong>7</strong> <small>Hour</small></span>
+                    <span><strong>08</strong> <small>Min</small></span>
+                    <span><strong>55</strong> <small>Sec</small></span>
+                </div>
+                <a href="/deal">Grab Now</a>
+            </div>
+            <img src="static/img/deals_of_month.webp" alt="Women Zircon Crystal Engagement Ring">
+        </section>
+
+        <!-- NEW ARRIVALS -->
+        <section class="new-arrivals">
+            <h2>New Arrivals</h2>
+            <p>Vitae posuere urna blandit sed. Praesent ut dignissim risus.</p>
+            <ul>
+                <li>
+                    <article>
+                        <div class="product-badges">
+                            <span class="badge-featured">FEATURED</span>
+                            <span class="badge-new">NEW</span>
+                            <span class="badge-sale">SALE</span>
+                        </div>
+                        <img src="static/img/product_image_05.webp" alt="Austrian Crystals Engagement Jewelry Ring">
+                        <div class="product-content">
+                            <h3><a href="/product/1">Austrian Crystals Engagement Jewelry Ring</a></h3>
+                            <div class="product-price">$285.00</div>
+
+                            <form class="product-options">
+                                <div class="product-color">
+                                    <span class="option-label"><strong>Color</strong> : Silver</span>
+                                    <div class="color-swatches">
+                                        <button type="button" class="color-swatch color-silver active" aria-label="Silver"></button>
+                                        <button type="button" class="color-swatch color-gold" aria-label="Gold"></button>
+                                    </div>
+                                </div>
+                                <div class="product-size">
+                                    <span class="option-label"><strong>Size</strong> : 28</span>
+                                    <div class="size-buttons">
+                                        <button type="button" class="size-button active">28</button>
+                                        <button type="button" class="size-button">32</button>
+                                    </div>
+                                </div>
+                                <button type="submit" class="add-to-cart">ADD TO CART</button>
+                            </form>
+                        </div>
+                    </article>
+                </li>
+
+                <li>
+                    <article>
+                        <div class="product-badges">
+                            <span class="badge-new">NEW</span>
+                        </div>
+                        <img src="static/img/product_image_06.webp" alt="Crystal Water Drop Wedding Function Earrings">
+                        <div class="product-content">
+                            <h3><a href="/product/2">Crystal Water Drop Wedding Function Earrings</a></h3>
+                            <div class="product-price">$285.00</div>
+
+                            <form class="product-options">
+                                <div class="product-color">
+                                    <span class="option-label"><strong>Color</strong> : Silver</span>
+                                    <div class="color-swatches">
+                                        <button type="button" class="color-swatch color-silver active" aria-label="Silver"></button>
+                                        <button type="button" class="color-swatch color-gold" aria-label="Gold"></button>
+                                    </div>
+                                </div>
+                                <div class="product-size">
+                                    <span class="option-label"><strong>Size</strong> : 28</span>
+                                    <div class="size-buttons">
+                                        <button type="button" class="size-button active">28</button>
+                                        <button type="button" class="size-button">32</button>
+                                    </div>
+                                </div>
+                                <button type="submit" class="add-to-cart">ADD TO CART</button>
+                            </form>
+                        </div>
+                    </article>
+                </li>
+            </ul>
+        </section>
+
+        <!-- PERFECT MATCH -->
+        <section class="perfect-match">
+            <h2>The Perfect Match</h2>
+            <div>Lorem ipsum dolor sit amet, consectetur adipiscing elit</div>
+            <a href="/shop/perfect-match">Shop Now</a>
+        </section>
+
+        <!-- BLOG -->
+        <section class="blog">
+            <h2>Latest Blog</h2>
+            <span>Check out our latest news</span>
+            <ul>
+                <li>
+                    <article>
+                        <img src="static/img/blog_post_1.webp" alt="Mujer usando joyería">
+                        <time datetime="2024-10-18"><strong>14</strong><br>JAN</time>
+                        <h3><a href="/blog/post1">Woman wearing Silver-colore ring necklaces</a></h3>
+                        <p>Lorem ipsum is simply dummy text of the priaces and typesetting industry[...]</p>
+                        <a href="/blog/post1" class="read-more">Read more</a>
+                    </article>
+                </li>
+
+                <li>
+                    <article>
+                        <img src="static/img/blog_post_2.webp" alt="Bocetos de diseños de joyería">
+                        <time datetime="2024-10-12"><strong>12</strong><br>OCT</time>
+                        <h3><a href="/blog/post2">Choosing the right jewelry for your...</a></h3>
+                        <p>Lorem ipsum is simply dummy text of the priaces and typesetting industry[...]</p>
+                        <a href="/blog/post2" class="read-more">Read more</a>
+                    </article>
+                </li>
+
+                <li>
+                    <article>
+                        <img src="static/img/blog_post_3.webp" alt="Flores rosas y joyería">
+                        <time datetime="2024-10-09"><strong>09</strong><br>OCT</time>
+                        <h3><a href="/blog/post3">Best jewelry for your engagement</a></h3>
+                        <p>Lorem ipsum is simply dummy text of the priaces and typesetting industry[...]</p>
+                        <a href="/blog/post3" class="read-more">Read more</a>
+                    </article>
+                </li>
+
+                <li>
+                    <article>
+                        <img src="static/img/blog_post_4.webp" alt="Caja de joyería">
+                        <time datetime="2024-10-02"><strong>02</strong><br>OCT</time>
+                        <h3><a href="/blog/post4">How to take care of your jewelry</a></h3>
+                        <p>Lorem ipsum is simply dummy text of the priaces and typesetting industry[...]</p>
+                        <a href="/blog/post4" class="read-more">Read more</a>
+                    </article>
+                </li>
+            </ul>
+        </section>
+
+    </main>
+
+    <footer>
+        <!-- NEWSLETTER -->
+        <section class="newsletter-section">
+            <div class="newsletter-content">
+                <h2>Sign up for newsletters & get all updates</h2>
+                <div>Lorem ipsum dolor sit amet, consectetur adipiscing elit</div>
+            </div>
+            <form>
+                <label for="newsletter" hidden>Tu dirección de email</label>
+                <input type="email" id="newsletter" placeholder="Your email address">
+                <button type="submit">Subscribe</button>
+            </form>
+        </section>
+
+        <div>
+            <section>
+                <h2>Katora.</h2>
+                <address>
+                    123 Street, New York, USA<br>
+                    +1 234 567 890<br>
+                    info@katora.com
+                </address>
+            </section>
+
+            <section>
+                <h2>About</h2>
+                <nav>
+                    <ul>
+                        <li><a href="#">About Us</a></li>
+                        <li><a href="#">Contact Us</a></li>
+                        <li><a href="#">Careers</a></li>
+                        <li><a href="#">Store Locator</a></li>
+                    </ul>
+                </nav>
+            </section>
+
+            <section>
+                <h2>Shop</h2>
+                <nav>
+                    <ul>
+                        <li><a href="#">New Arrivals</a></li>
+                        <li><a href="#">Best Sellers</a></li>
+                        <li><a href="#">On Sale</a></li>
+                        <li><a href="#">All Products</a></li>
+                    </ul>
+                </nav>
+            </section>
+
+            <section>
+                <h2>Customer</h2>
+                <nav>
+                    <ul>
+                        <li><a href="#">My Account</a></li>
+                        <li><a href="#">Shipping</a></li>
+                        <li><a href="#">Returns</a></li>
+                        <li><a href="#">FAQ</a></li>
+                    </ul>
+                </nav>
+            </section>
+
+            <section>
+                <h2>Special Offers</h2>
+                <nav>
+                    <ul>
+                        <li><a href="#">Gift Cards</a></li>
+                        <li><a href="#">Promotions</a></li>
+                        <li><a href="#">Clearance</a></li>
+                    </ul>
+                </nav>
+            </section>
+        </div>
+
+        <div>
+            <p>&copy; 2024 Katora. All Rights Reserved.</p>
+        </div>
+    </footer>
+
+</body>
+</html>
