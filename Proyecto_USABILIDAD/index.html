@@ -4,15 +4,10 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Katora - Tienda de Joyería</title>
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <!-- Preload imagen LCP (fondo del hero) para adelantar su descarga -->
     <link rel="preload" as="image" href="static/img/Slider_01.webp">
-    <!-- Google Fonts: no bloqueante con media print + onload swap -->
-    <link rel="preload" as="style" href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap">
-    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet" media="print" onload="this.media='all'">
-    <noscript><link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap"></noscript>
-    <!-- Bootstrap Icons eliminado del CDN: se usan SVGs inline para eliminar 128 KiB de woff2 y 14 KiB de CSS bloqueante -->
+    <!-- Bootstrap Icons eliminado del CDN: se usan SVGs inline -->
+    <!-- Google Fonts eliminado: se usa fuente del sistema (0 ms de red) -->
     <!-- CSS principal: versión minificada + query string para control de caché -->
     <link rel="preload" as="style" href="static/css/style.min.css?v=1">
     <link rel="stylesheet" href="static/css/style.min.css?v=1">
